@@ -1,0 +1,14 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+spring:
+  config:
+    activate:
+      on-profile: local
+  application:
+    name: eureka-server
+  autoconfigure:
+    exclude: org.springframework.boot.actuate.autoconfigure.metrics.SystemMetricsAutoConfiguration
