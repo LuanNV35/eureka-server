@@ -10,5 +10,3 @@ spring:
       on-profile: local
   application:
     name: eureka-server
-  autoconfigure:
-    exclude: org.springframework.boot.actuate.autoconfigure.metrics.SystemMetricsAutoConfiguration
